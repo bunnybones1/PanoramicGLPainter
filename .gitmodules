@@ -1,0 +1,3 @@
+[submodule "lib/bunnybones"]
+	path = lib/bunnybones
+	url = git://github.com/bunnybones1/bunnybones.git
