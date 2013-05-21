@@ -17,6 +17,8 @@
   <classpaths>
     <class path="src" />
     <class path="lib\bunnybones\src" />
+    <class path="lib\away3d-core-fp11\src" />
+    <class path="lib\GreenSock-AS3\src" />
   </classpaths>
   <!-- Build options -->
   <build>
@@ -51,7 +53,7 @@
   </includeLibraries>
   <!-- SWC Libraries -->
   <libraryPaths>
-    <!-- example: <element path="..." /> -->
+    <element path="lib\BambooSDK_2_1.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
@@ -71,7 +73,7 @@
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="lib\bunnybones\src\com\bunnybones\model\examples\NetModelTestMainAir.as" />
+    <compile path="src\com\bunnybones\panoramicGLPainter\Main.as" />
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>

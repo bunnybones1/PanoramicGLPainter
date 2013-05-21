@@ -1,3 +1,9 @@
 [submodule "lib/bunnybones"]
 	path = lib/bunnybones
 	url = git://github.com/bunnybones1/bunnybones.git
+[submodule "lib/away3d-core-fp11"]
+	path = lib/away3d-core-fp11
+	url = https://github.com/bunnybones1/away3d-core-fp11.git
+[submodule "lib/GreenSock-AS3"]
+	path = lib/GreenSock-AS3
+	url = git://github.com/greensock/GreenSock-AS3.git
